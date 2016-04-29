@@ -1,0 +1,135 @@
+/* tree-view */
+
+atom-text-editor{
+    background-color: #222222;
+}
+
+.tree-view {
+    font-size: 1em;
+    background: #222222;
+}
+
+.focusable-panel{
+  box-shadow: none;
+}
+
+.focusable-panel:focus{
+  background: #222;
+}
+
+.tree-view .selected:before {
+    background-color: rgba(0, 0, 0, 0.17);
+}
+
+.focusable-panel:focus .selected::before{
+  background-color: rgba(0, 0, 0, 0.17);
+}
+
+/* atom-pane */
+atom-pane-container atom-pane {
+    background-color: #222;
+    color: white;
+}
+
+atom-pane-container atom-pane:focus{
+  background-color: #222;
+}
+
+background-tips .background-message .message.fade-in {
+    opacity: .1;
+    color: white;
+}
+
+/* tab-bar */
+
+.tab-bar {
+    padding-left: 8px;
+    box-shadow: none;
+}
+
+.tab-bar .tab.active, .tab-bar .tab.active:before, .tab-bar .tab.active:after{
+  background-image: none;
+  box-shadow: none;
+  border-bottom: 1px solid #4ED3EF;
+  height: 30px;
+}
+
+.tab-bar .tab, .tab-bar .tab:before, .tab-bar .tab:after{
+  height: 30px;
+  background-image: none;
+}
+
+.tab-bar:after{
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+}
+
+.tab-bar .tab:before, .tab-bar .tab:after{
+  background: none;
+  background-color: #222222;
+  box-shadow: none;
+  -webkit-transform: skewX(0deg);
+}
+
+tab-bar .tab, .tab-bar .tab:before, .tab-bar .tab:after {
+    background-image: none;
+}
+
+
+atom-pane-container atom-pane .item-views{
+  border:none;
+}
+
+atom-pane-container atom-pane{
+  padding-top: 0;
+}
+atom-text-editor::shadow .selection .region {
+background-color: rgba(255, 255, 255, .1);
+}
+
+atom-text-editor::shadow .wrap-guide{
+  opacity: 0;
+}
+
+
+.tab-bar .tab::before {
+  background: none;
+}
+
+[theme-one-dark-ui-layoutmode="auto"] atom-pane-container atom-pane{
+  border-left: none;
+  border-bottom: none;
+}
+
+/* gutter */
+
+atom-text-editor::shadow .line-number {
+    opacity: .2;
+}
+
+atom-text-editor::shadow  .line-number.cursor-line{
+  opacity: .8;
+}
+
+atom-text-editor::shadow .gutter, :host .gutter{
+  background-color: transparent;
+}
+
+atom-panel.left, .tool-panel.left, atom-panel.panel-left, .tool-panel.panel-left{
+  border-right: transparent;
+}
+
+.tree-view .selected:before{
+  background-color: #222;
+}
+
+/* status bar */
+
+atom-panel.bottom, .tool-panel.bottom, atom-panel.panel-bottom, .tool-panel.panel-bottom{
+  border-top: 1px solid transparent;
+  box-shadow:none
+}
+
+atom-panel, .tool-panel{
+  background-color: #222;
+}
