@@ -60,6 +60,18 @@
     .javascript-icon;
   }
 
+  // JavaScript files
+  [data-name$='.php']:before {
+    .php-icon;
+  }
+
+  // JavaScript files
+  [data-name$='.blade.php']:before {
+    .blade-icon;
+  }
+
+
+
   // Meta configuration files
   [data-name='.biscottoopts']:before,
   [data-name$='gitignore']:before,
@@ -111,12 +123,18 @@
   // Stylesheets
   [data-name$='.styl']:before,
   [data-name$='.css']:before,
-  [data-name$='.sass']:before,
-  [data-name$='.scss']:before,
-  [data-name$='.less']:before {
+   {
     .stylesheet-icon;
   }
 
+  [data-name$='.sass']:before,
+  [data-name$='.scss']:before{
+    .sass-icon;
+  }
+
+  [data-name$='.less']:before{
+    .less-icon;
+  }
   // Archives
   [data-name$='.zip']:before,
   [data-name$='.rar']:before,
