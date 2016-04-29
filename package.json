@@ -1,10 +1,10 @@
 {
-  "name": "dark-minimalistic-ui",
+  "name": "jsartisan-dark-minimalistic-ui",
   "theme": "ui",
   "version": "0.51.1",
   "description": "Dark UI Minimalistic Theme",
   "license": "MIT",
-  "repository": "https://github.com/atom/atom-dark-ui",
+  "repository": "https://github.com/jsartisan/jsartisan-minimalistic-ui",
   "engines": {
     "atom": ">0.40.0"
   }
