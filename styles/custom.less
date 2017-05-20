@@ -82,11 +82,11 @@ atom-pane-container atom-pane .item-views{
 atom-pane-container atom-pane{
   padding-top: 0;
 }
-atom-text-editor::shadow .selection .region {
+atom-text-editor.editor .selection .region {
 background-color: rgba(255, 255, 255, .1);
 }
 
-atom-text-editor::shadow .wrap-guide{
+atom-text-editor.editor .wrap-guide{
   opacity: 0.1;
 }
 
@@ -102,15 +102,15 @@ atom-text-editor::shadow .wrap-guide{
 
 /* gutter */
 
-atom-text-editor::shadow .line-number {
+atom-text-editor.editor .line-number {
     opacity: .2;
 }
 
-atom-text-editor::shadow  .line-number.cursor-line{
+atom-text-editor.editor .line-number.cursor-line {
   opacity: .8;
 }
 
-atom-text-editor::shadow .gutter, :host .gutter{
+atom-text-editor.editor .gutter, :host .gutter{
   background-color: transparent;
 }
 
